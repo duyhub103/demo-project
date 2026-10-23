@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pharma_wms_test
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+jwt:
+  secret: pharmaWMSSecretKey2024VeryLongSecretKeyForJWTSigning123456789ABCDEF
+  expiration: 86400000
